@@ -76,11 +76,13 @@ window.onload = function()
         if( run )
         {
             pause();
+            document.getElementById( "start" ).innerHTML = "Start";
         }
         
         else
         {
             start();
+            document.getElementById( "start" ).innerHTML = "Pause";
         }
     }
 
